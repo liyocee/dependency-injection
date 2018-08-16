@@ -1,6 +1,5 @@
 package com.liyosi.didemo;
 
-import com.liyosi.didemo.controllers.ConstructorInjectedController;
 import com.liyosi.didemo.controllers.MyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,6 +17,6 @@ public class DiDemoApplication {
 
 //    System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
 
-    System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
+//    System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
   }
 }
