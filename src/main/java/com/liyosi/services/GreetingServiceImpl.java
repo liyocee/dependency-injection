@@ -1,4 +1,4 @@
-package com.liyosi.didemo.services;
+package com.liyosi.services;
 
 import org.springframework.stereotype.Service;
 

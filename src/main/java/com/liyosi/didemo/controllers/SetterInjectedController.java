@@ -1,6 +1,6 @@
 package com.liyosi.didemo.controllers;
 
-import com.liyosi.didemo.services.GreetingService;
+import com.liyosi.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 

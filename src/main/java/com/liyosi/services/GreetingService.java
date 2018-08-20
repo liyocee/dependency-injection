@@ -1,4 +1,4 @@
-package com.liyosi.didemo.services;
+package com.liyosi.services;
 
 /**
  * Created by liyosi on Aug, 2018
