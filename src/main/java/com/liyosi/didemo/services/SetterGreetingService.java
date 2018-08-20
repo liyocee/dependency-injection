@@ -1,11 +1,8 @@
-package com.liyosi.services;
-
-import org.springframework.stereotype.Service;
+package com.liyosi.didemo.services;
 
 /**
  * Created by liyosi on Aug, 2018
  */
-@Service
 public class SetterGreetingService implements GreetingService {
 
   @Override

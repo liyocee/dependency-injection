@@ -1,6 +1,6 @@
 package com.liyosi.didemo.controllers;
 
-import com.liyosi.services.GreetingServiceImpl;
+import com.liyosi.didemo.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
