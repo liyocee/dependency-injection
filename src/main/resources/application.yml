@@ -1,0 +1,9 @@
+liyosi:
+  username: db_username_ckl
+  password: db_password_pwd
+  db_url: "http://localhost/loans_dev"
+
+  jms:
+    username: jms_user abc
+    password: jms_password 123
+    url: "jdbc:mem:h2:jms"

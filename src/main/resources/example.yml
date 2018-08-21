@@ -1,0 +1,26 @@
+# comment
+
+name: John
+
+names: # inline comment
+  - Ken
+  - Dick
+  - Patty
+
+pound_sign: "#"
+
+book:
+  author: Ken Bent
+  title: Principles of Programming
+
+include_new_lines: |
+  asdf asf
+  asf asf
+  asf asf
+  asfa adf
+
+ignore_new_lines: >
+  asf ae asf
+  asff ae asf
+  ase adf ae as
+  asf adf
