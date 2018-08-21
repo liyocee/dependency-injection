@@ -1,0 +1,9 @@
+liyosi:
+  username: germany_db_username_ckl
+  password: germany_db_password_pwd
+  db_url: "http://ge-localhost/loans_dev"
+
+  jms:
+    username: ge_jms_user abc
+    password: ge_jms_password 123
+    url: "jdbc:ge:mem:h2:jms"
