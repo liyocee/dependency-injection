@@ -1,11 +1,13 @@
 package com.liyosi.didemo.config;
 
 import com.liyosi.didemo.services.FakeDataSource;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+import org.springframework.core.env.Environment;
 
 /**
  * Created by liyosi on Aug, 2018
@@ -13,6 +15,9 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 @Configuration
 @PropertySource("classpath:datasource.properties")
 public class PropertyConfig {
+
+  @Autowired
+  Environment environment;
 
   @Value("${liyosi.username}")
   String user;
@@ -29,7 +34,7 @@ public class PropertyConfig {
     FakeDataSource fakeDataSource = new FakeDataSource();
     fakeDataSource.setUrl(url);
     fakeDataSource.setPassword(password);
-    fakeDataSource.setUsername(user);
+    fakeDataSource.setUsername(environment.getProperty("USERNAME"));
 
     return fakeDataSource;
   }
