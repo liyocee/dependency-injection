@@ -17,6 +17,11 @@ public class DiDemoApplication {
 
 		controller.hello();
 
+    System.out.println(controller.fakeDataSource.getPassword());
+    System.out.println(controller.fakeDataSource.getUrl());
+    System.out.println(controller.fakeDataSource.getUsername());
+
+
 //    System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
 
 //    System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());

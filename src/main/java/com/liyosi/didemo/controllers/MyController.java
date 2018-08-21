@@ -1,6 +1,8 @@
 package com.liyosi.didemo.controllers;
 
+import com.liyosi.didemo.services.FakeDataSource;
 import com.liyosi.didemo.services.GreetingService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 /**
@@ -10,6 +12,9 @@ import org.springframework.stereotype.Controller;
 public class MyController {
 
   private GreetingService greetingService;
+
+  @Autowired
+  public FakeDataSource fakeDataSource;
 
   public MyController(GreetingService greetingService) {
     this.greetingService = greetingService;
