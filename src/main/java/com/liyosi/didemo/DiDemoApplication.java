@@ -21,6 +21,12 @@ public class DiDemoApplication {
     System.out.println(controller.fakeDataSource.getUrl());
     System.out.println(controller.fakeDataSource.getUsername());
 
+    System.out.println("JMS Properties Configs");
+
+    System.out.println(controller.fakeJmsBroker.getPassword());
+    System.out.println(controller.fakeJmsBroker.getUrl());
+    System.out.println(controller.fakeJmsBroker.getUsername());
+
 
 //    System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
 
